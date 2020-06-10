@@ -1,0 +1,3 @@
+This is multiclass image classification where we have 42 classes with each class having atleast 150-200 images. I tried to implement this using fast.ai.
+This is fast and with few steps you can see results. Improvements possible by tunning. But as this is first series I will share improved models in future.
+This can help beginers in Deeplearning.

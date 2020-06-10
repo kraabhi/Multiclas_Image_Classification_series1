@@ -30,7 +30,7 @@ output_df.to_csv(output_file, index=False)
 df = pd.read_csv(path/'labels.csv')
 
 # resnet 50 training
-tfms = get_transforms(do_flip=False)
+tfms = get_transforms(do_flip=False) # this is to apply transformation to train/validation set/ test set basically augmentation
 data = ImageDataBunch.from_csv(path, ds_tfms=get_transforms(), size=224, bs=bs
                                   ).normalize(imagenet_stats)
                                   

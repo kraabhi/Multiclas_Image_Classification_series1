@@ -1,3 +1,7 @@
 This is multiclass image classification where we have 42 classes with each class having atleast 150-200 images. I tried to implement this using fast.ai.
 This is fast and with few steps you can see results. Improvements possible by tunning. But as this is first series I will share improved models in future.
 This can help beginers in Deeplearning.
+
+Note: Major part of deep learning starts with data collection and bring data in the format model accepts. Later fine tuning plays role. Here images are inside 
+one main directory consisting of multiple sub directories. Each sub directory has images corresponding to one character. So the firat task is I created CSV 
+containing path and label.
